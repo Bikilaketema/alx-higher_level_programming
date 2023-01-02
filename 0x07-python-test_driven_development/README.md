@@ -1,3 +1,2 @@
-Python test driven development project.
-
-#Bikila Ketema
+#Python => test driven development project.
+#by Bikila Ketema
