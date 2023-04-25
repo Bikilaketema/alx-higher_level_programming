@@ -10,4 +10,3 @@ request(`https://swapi-api.alx-tools.com/api/films/${movieId}`, function (error,
     console.log(movieData.title);
   }
 });
-
