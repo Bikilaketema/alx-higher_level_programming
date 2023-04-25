@@ -9,17 +9,17 @@ request(url, (err, response, body) => {
     console.error(err);
     return;
   }
-  
+
   const films = JSON.parse(body).results;
   const characterId = '18';
   let count = 0;
-  
+
   for (const film of films) {
     const characters = film.characters;
     if (characters.includes(`https://swapi-api.alx-tools.com/api/people/${characterId}/`)) {
       count++;
     }
   }
-  
+
   console.log(count);
 });
